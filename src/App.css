@@ -1,0 +1,92 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.container {
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.button-save-speak{
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+select,
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #2d2d2d;
+  border-radius: 5px;
+  background-color: #ccc;
+  color: #2d2d2d;
+}
+
+input[type="submit"] {
+  background-color: #d16ba5;
+  color: #525252;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#result {
+  color: #213547;
+  margin-top: 20px;
+  text-align: left; 
+  font-weight: bold;
+  padding: 50px;
+  border: 1px solid #5ffbf1; 
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      #d16ba5, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+  
+  min-height: 50px; 
+  overflow: hidden;
+  max-width: 700px;
+  border-radius: 10px;
+}
+
