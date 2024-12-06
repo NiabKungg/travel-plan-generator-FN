@@ -199,7 +199,7 @@ function App() {
       <div id="result">{typingEffect}</div>
       {typingComplete && result && (
         <div className="button-save-speak">
-          <button onClick={handleSaveToFile}>โหลดเนื้อเรื่อง</button>
+          <button onClick={handleSaveToFile}>โหลดแพลน</button>
         </div>
       )}
     </div>
